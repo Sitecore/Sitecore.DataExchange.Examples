@@ -1,0 +1,5 @@
+D:\Visual Studio projects\Sitecore.DataExchange.Providers.FileSystem\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
+D:\Visual Studio projects\Sitecore.DataExchange.Providers.FileSystem\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb
+D:\Visual Studio projects\Sitecore.DataExchange.Providers.FileSystem\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
+D:\Visual Studio projects\Sitecore.DataExchange.Providers.FileSystem\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb
+D:\Visual Studio projects\Sitecore.DataExchange.Providers.FileSystem\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.csprojResolveAssemblyReference.cache
