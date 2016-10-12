@@ -1,9 +1,0 @@
-D:\Visual Studio projects\Sitecore.DataExchange.Examples\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
-D:\Visual Studio projects\Sitecore.DataExchange.Examples\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb
-D:\Visual Studio projects\Sitecore.DataExchange.Examples\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.csprojResolveAssemblyReference.cache
-D:\Visual Studio projects\Sitecore.DataExchange.Examples\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
-D:\Visual Studio projects\Sitecore.DataExchange.Examples\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\Sitecore.DataExchange.Providers.FileSystem\bin\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.dll
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\Sitecore.DataExchange.Providers.FileSystem\obj\Debug\Sitecore.DataExchange.Providers.FileSystem.pdb

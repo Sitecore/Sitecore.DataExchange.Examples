@@ -1,4 +1,0 @@
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\ConsoleMenuMaker\bin\Debug\ConsoleMenuMaker.dll
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\ConsoleMenuMaker\bin\Debug\ConsoleMenuMaker.pdb
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\ConsoleMenuMaker\obj\Debug\ConsoleMenuMaker.dll
-D:\Sitecore.Git\Sitecore.DataExchange.Examples\src\ConsoleMenuMaker\obj\Debug\ConsoleMenuMaker.pdb
