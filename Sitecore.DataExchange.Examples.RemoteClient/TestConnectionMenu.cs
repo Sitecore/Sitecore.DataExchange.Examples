@@ -2,6 +2,7 @@
 using Sitecore.DataExchange.Remote.Http;
 using Sitecore.DataExchange.Remote.Repositories;
 using Sitecore.DataExchange.Repositories;
+using Sitecore.Services.Core.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,39 +15,54 @@ namespace Sitecore.DataExchange.Examples.RemoteClient
     public class TestConnectionMenu : BaseMenu<RemoteClientContext>
     {
         public TestConnectionMenu(IMenu<RemoteClientContext> previousMenu) : base(previousMenu) { }
+        private const string DEFAULT_PATH = "/sitecore/content/Home";
+        private const string DEFAULT_ID = "{11111111-1111-1111-1111-111111111111}";
+
+
         [MenuEntry('1', Text = "Item Path")]
         public MenuStatus FindItemByPath(IMenuManager<RemoteClientContext> manager)
         {
-            Console.Write("Enter the item path: ");
-            var path = Console.ReadLine();
+            var path = ReadValue("Enter the item path", DEFAULT_PATH);
             try
             {
                 DoGetItemByPath(path, manager.Context);
             }
             catch(Exception ex)
             {
-                base.WriteMessage(ex.StackTrace, ConsoleColor.Red);
+                base.WriteMessage(ConsoleColor.Red, ex.StackTrace);
             }
             base.WriteMessage(null);
             return MenuStatus.PreserveMenu;
         }
+
+
         [MenuEntry('2', Text = "Item ID")]
         public MenuStatus FindItemById(IMenuManager<RemoteClientContext> manager)
         {
-            Console.Write("Enter the item ID: ");
-            var id = Console.ReadLine();
+            var id = ReadValue("Enter the item ID", DEFAULT_ID);
             try
             {
                 DoGetItemById(id, manager.Context);
             }
             catch (Exception ex)
             {
-                base.WriteMessage(ex.StackTrace, ConsoleColor.Red);
+                base.WriteMessage(ConsoleColor.Red, ex.StackTrace);
             }
             base.WriteMessage(null);
             return MenuStatus.PreserveMenu;
         }
 
+
+        private string ReadValue(string prompt, string defaultValue)
+        {
+            Console.Write("{0} [{1}]: ", prompt, defaultValue);
+            var value = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                value = defaultValue;
+            }
+            return value;
+        }
         private IItemModelRepository GetItemModelRepository(RemoteClientContext context)
         {
             //
@@ -64,25 +80,34 @@ namespace Sitecore.DataExchange.Examples.RemoteClient
             // be established with the Sitecore server.
             return new WebApiItemModelRepository(context.Database, cxSettings);
         }
+        private void DisplayItemDetails(ItemModel itemModel)
+        {
+            base.WriteMessage("Item details:");
+            base.WriteMessage(string.Format("  * Name: {0}", itemModel[ItemModel.ItemName]));
+            base.WriteMessage(string.Format("  * Display name: {0}", itemModel[ItemModel.DisplayName]));
+            base.WriteMessage(string.Format("  * ID: {0}", itemModel[ItemModel.ItemID]));
+            base.WriteMessage(string.Format("  * Path: {0}", itemModel[ItemModel.ItemPath]));
+            base.WriteMessage(null);
+        }
         private void DoGetItemByPath(string path, RemoteClientContext context)
         {
             //
             // Get the item specified by the parameter.
-            var itemRepo = GetItemModelRepository(context);
-            var item = itemRepo.Get(path);
-            if (item != null)
+            var itemModelRepo = GetItemModelRepository(context);
+            var itemModel = itemModelRepo.Get(path);
+            if (itemModel != null)
             {
                 //
                 // A connection was established with the Sitecore server
                 // and the specified item was found.
-                base.WriteMessage("The specified item exists on the server.");
+                DisplayItemDetails(itemModel);
             }
             else
             {
                 //
                 // The item was not found, but a connection was still
                 // established with the Sitecore server.
-                base.WriteMessage("The specified item does not exist on the server.", ConsoleColor.Red);
+                base.WriteMessage(ConsoleColor.Red, "The specified item does not exist on the server.");
             }
         }
         private void DoGetItemById(string id, RemoteClientContext context)
@@ -92,24 +117,24 @@ namespace Sitecore.DataExchange.Examples.RemoteClient
             Guid guid = Guid.Empty;
             if (!Guid.TryParse(id, out guid))
             {
-                base.WriteMessage("The specified value is not a valid ID.", ConsoleColor.Red);
+                base.WriteMessage(ConsoleColor.Red, "The specified value is not a valid ID.");
                 return;
             }
-            var itemRepo = GetItemModelRepository(context);
-            var item = itemRepo.Get(guid);
-            if (item != null)
+            var itemModelRepo = GetItemModelRepository(context);
+            var itemModel = itemModelRepo.Get(guid);
+            if (itemModel != null)
             {
                 //
                 // A connection was established with the Sitecore server
                 // and the specified item was found.
-                base.WriteMessage("The specified item exists on the server.");
+                DisplayItemDetails(itemModel);
             }
             else
             {
                 //
                 // The item was not found, but a connection was still
                 // established with the Sitecore server.
-                base.WriteMessage("The specified item does not exist on the server.", ConsoleColor.Red);
+                base.WriteMessage(ConsoleColor.Red, "The specified item does not exist on the server.");
             }
         }
     }

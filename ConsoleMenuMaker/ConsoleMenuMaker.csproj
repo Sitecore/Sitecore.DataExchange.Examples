@@ -45,6 +45,7 @@
     <Compile Include="BaseMenu.cs" />
     <Compile Include="MenuAttribute.cs" />
     <Compile Include="MenuEntryAttribute.cs" />
+    <Compile Include="MenuManagerUtils.cs" />
     <Compile Include="MenuOption.cs" />
     <Compile Include="MenuManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

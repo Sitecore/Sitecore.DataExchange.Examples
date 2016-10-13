@@ -10,6 +10,7 @@ namespace ConsoleMenuMaker
     {
         protected BaseMenu(IMenu<T> previousMenu)
         {
+            this.Width = 80;
             this.PreviousMenu = previousMenu;
             //
             //populate the menu
@@ -33,16 +34,17 @@ namespace ConsoleMenuMaker
             }
             this.MenuOptions = options.ToArray();
         }
-        public void WriteMessage(string message, ConsoleColor color)
+        public int Width { get; set; }
+        public void WriteMessage(ConsoleColor color, string message, params string[] args)
         {
             var previousColor = Console.ForegroundColor;
             Console.ForegroundColor = color;
             WriteMessage(message);
             Console.ForegroundColor = previousColor;
         }
-        public void WriteMessage(string message)
+        public void WriteMessage(string message, params string[] args)
         {
-            Console.WriteLine(message);
+            Console.WriteLine(MenuManagerUtils.EnsureTextLength(this.Width, message));
         }
 
         public IMenu<T> PreviousMenu { get; private set; }

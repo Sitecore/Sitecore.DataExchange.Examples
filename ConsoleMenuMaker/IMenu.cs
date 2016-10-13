@@ -15,9 +15,10 @@ namespace ConsoleMenuMaker
     {
         string Name { get; }
         string Description { get; }
+        int Width { get; }
         MenuOption<T>[] MenuOptions { get; }
         IMenu<T> PreviousMenu { get; }
-        void WriteMessage(string message);
-        void WriteMessage(string message, ConsoleColor color);
+        void WriteMessage(string message, params string[] args);
+        void WriteMessage(ConsoleColor color, string message, params string[] args);
     }
 }

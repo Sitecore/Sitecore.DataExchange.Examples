@@ -10,16 +10,8 @@ namespace ConsoleMenuMaker
     {
         public MenuManager()
         {
-            this.Width = 80;
         }
         public T Context { get; set; }
-        public int Width { get; set; }
-        protected string EnsureTextLength(string value)
-        {
-            var count = 0;
-            var lines = value.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).GroupBy(w => (count += w.Length + 1) / this.Width).Select(g => string.Join(" ", g));
-            return string.Join("\n", lines);
-        }
         private void RenderMenu(IMenu<T> menu)
         {
             if (menu == null)
@@ -29,14 +21,14 @@ namespace ConsoleMenuMaker
             Console.Clear();
             if (!string.IsNullOrWhiteSpace(menu.Name))
             {
-                menu.WriteMessage(new string('=', this.Width));
-                menu.WriteMessage(EnsureTextLength(menu.Name));
-                menu.WriteMessage(new string('=', this.Width));
+                menu.WriteMessage(new string('=', menu.Width));
+                menu.WriteMessage(menu.Name);
+                menu.WriteMessage(new string('=', menu.Width));
             }
             if (!string.IsNullOrWhiteSpace(menu.Description))
             {
-                menu.WriteMessage(EnsureTextLength(menu.Description));
-                menu.WriteMessage(new string('-', this.Width));
+                menu.WriteMessage(menu.Description);
+                menu.WriteMessage(new string('-', menu.Width));
             }
             foreach (var menuOption in menu.MenuOptions)
             {
@@ -65,7 +57,7 @@ namespace ConsoleMenuMaker
                 var menuOption = menu.MenuOptions.FirstOrDefault(m => m.Character == key.KeyChar);
                 if (menuOption == null)
                 {
-                    menu.WriteMessage("Invalid menu option.", ConsoleColor.Red);
+                    menu.WriteMessage(ConsoleColor.Red, "Invalid menu option.");
                 }
                 else
                 {
