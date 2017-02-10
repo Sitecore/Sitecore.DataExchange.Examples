@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Sample Tenant for File System Provider</PackageName>
       <Author>Adam Conn</Author>
-      <Version>1.1</Version>
+      <Version>1.3</Version>
       <Revision />
       <License />
       <Comment />
@@ -19,6 +19,7 @@
     <xfiles>
       <Entries>
         <x-item>/cities.dat</x-item>
+        <x-item>/cities_intl.dat</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
@@ -40,10 +41,21 @@
       <Name>files</Name>
     </xfiles>
     <items>
+      <Database>master</Database>
+      <Root>{F4C978D1-A78C-4A52-AF23-CDE0237C6C61}</Root>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
-          <Transforms />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
         </ItemToEntryConverter>
       </Converter>
       <Include>
@@ -84,10 +96,10 @@
       </Include>
       <Exclude />
       <Name>Cities folder</Name>
-      <Database>master</Database>
-      <Root>{F4C978D1-A78C-4A52-AF23-CDE0237C6C61}</Root>
     </items>
     <items>
+      <Database>master</Database>
+      <Root>{131BE833-FB07-4BC8-B893-0DE1FA84E09C}</Root>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
@@ -141,10 +153,10 @@
       </Include>
       <Exclude />
       <Name>sample tenant</Name>
-      <Database>master</Database>
-      <Root>{131BE833-FB07-4BC8-B893-0DE1FA84E09C}</Root>
     </items>
     <items>
+      <Database>master</Database>
+      <Root>{0FAA76A1-0801-45B9-B662-9F571EB59705}</Root>
       <SkipVersions>False</SkipVersions>
       <Converter>
         <ItemToEntryConverter>
@@ -198,9 +210,22 @@
       </Include>
       <Exclude />
       <Name>Cities template</Name>
-      <Database>master</Database>
-      <Root>{0FAA76A1-0801-45B9-B662-9F571EB59705}</Root>
     </items>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Languages/de-DE/{C0250DB5-F43B-47CA-AC7F-19901EE926C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Languages/ja-JP/{469690B5-2894-489A-8467-64EF3896BFA7}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>language items</Name>
+    </xitems>
   </Sources>
   <Converter>
     <TrivialConverter>
