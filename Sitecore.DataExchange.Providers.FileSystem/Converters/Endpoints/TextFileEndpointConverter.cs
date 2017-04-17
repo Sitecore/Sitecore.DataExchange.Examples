@@ -13,7 +13,7 @@ using Sitecore.DataExchange.Converters;
 
 namespace Sitecore.DataExchange.Providers.FileSystem.Converters.Endpoints
 {
-    public class TextFileEndpointConverter : BaseEndpointConverter<ItemModel>
+    public class TextFileEndpointConverter : BaseEndpointConverter
     {
         private static readonly Guid TemplateId = Guid.Parse("{A28280BE-8331-4BAA-B5BE-41E7456FB67E}");
         public TextFileEndpointConverter(IItemModelRepository repository) : base(repository)

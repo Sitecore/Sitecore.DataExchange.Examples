@@ -12,7 +12,7 @@ using Sitecore.DataExchange.Plugins;
 
 namespace Sitecore.DataExchange.Providers.FileSystem.Converters.PipelineSteps
 {
-    public class ReadTextFileStepConverter : BasePipelineStepConverter<ItemModel>
+    public class ReadTextFileStepConverter : BasePipelineStepConverter
     {
         private static readonly Guid TemplateId = Guid.Parse("{BB3E3BAB-7497-4B84-A13B-46DEC07002B3}");
         public ReadTextFileStepConverter(IItemModelRepository repository) : base(repository)

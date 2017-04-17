@@ -3,7 +3,7 @@ using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Remote.Http;
 using Sitecore.DataExchange.Remote.Repositories;
 using Sitecore.DataExchange.Repositories;
-using Sitecore.DataExchange.Repositories.PipelineBatches;
+using Sitecore.DataExchange.Repositories.Tenants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -109,13 +109,13 @@ namespace Sitecore.DataExchange.Examples.RemoteClient
             // Instantiate an object that uses the item repository to read
             // configuration items from the Sitecore server and convert
             // those items into Data Exchange Framework components.
-            var pipelineBatchRepo = new SitecorePipelineBatchRepository();
+            var tenantRepo = new SitecoreTenantRepository();
             //
             // Only read enabled tenants. The remote API allows you to read
             // all of the tenants defined on a Sitecore server. It is the
             // responsibility of the client application to respect the
             // setting that indicates whether or not a tenant is enabled.
-            return pipelineBatchRepo.GetTentants().Where(t => t.Enabled);
+            return tenantRepo.GetTenants().Where(t => t.Enabled);
         }
 
 
@@ -156,7 +156,7 @@ namespace Sitecore.DataExchange.Examples.RemoteClient
                     else
                     {
                         var tenant = tenants.Skip(position - 1).FirstOrDefault();
-                        var repo = new SitecorePipelineBatchRepository();
+                        var repo = new SitecoreTenantRepository();
                         var batches = repo.GetPipelineBatches(tenant.ID, true).Where(b => b.Enabled);
                         if (!batches.Any())
                         {

@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>File System Provider for Data Exchange Framework</PackageName>
       <Author>Adam Conn</Author>
-      <Version>1.1</Version>
+      <Version>1.4</Version>
       <Revision />
       <License />
       <Comment />
@@ -19,6 +19,7 @@
     <xfiles>
       <Entries>
         <x-item>/bin/Sitecore.DataExchange.Providers.FileSystem.dll</x-item>
+        <x-item>/bin/Sitecore.DataExchange.Providers.FileSystem.pdb</x-item>
       </Entries>
       <Converter>
         <FileToEntryConverter>
