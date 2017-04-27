@@ -38,19 +38,19 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.DataExchange, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.1.4.170327\lib\NET452\Sitecore.DataExchange.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.1.4.170419\lib\NET452\Sitecore.DataExchange.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.DataExchange.DataAccess, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.DataAccess.1.4.170327\lib\NET452\Sitecore.DataExchange.DataAccess.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.DataAccess.1.4.170419\lib\NET452\Sitecore.DataExchange.DataAccess.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.DataExchange.Providers.Sc, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.Providers.Sc.1.4.170327\lib\NET452\Sitecore.DataExchange.Providers.Sc.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.Providers.Sc.1.4.170419\lib\NET452\Sitecore.DataExchange.Providers.Sc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.DataExchange.Remote, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.Remote.1.4.170327\lib\NET452\Sitecore.DataExchange.Remote.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.Remote.1.4.170419\lib\NET452\Sitecore.DataExchange.Remote.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Sitecore.Services.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">

@@ -3,7 +3,6 @@ using Sitecore.DataExchange.Converters;
 using Sitecore.DataExchange.Extensions;
 using Sitecore.DataExchange.Models;
 using Sitecore.DataExchange.Models.ItemModels.Common;
-using Sitecore.DataExchange.Models.ItemModels.Endpoints;
 using Sitecore.DataExchange.Providers.FileSystem.Converters.PipelineSteps;
 using Sitecore.DataExchange.Providers.FileSystem.Models.ItemModels.PipelineSteps;
 using Sitecore.DataExchange.Repositories;
@@ -62,7 +61,7 @@ namespace Sitecore.DataExchange.Providers.FileSystem.Tests.Converters.PipelineSt
             Assert.NotNull(settings.EndpointFrom);
         }
     }
-    public class MyEndpointConverter : BaseItemModelConverter<ItemModel, Endpoint>
+    public class MyEndpointConverter : BaseItemModelConverter<Endpoint>
     {
         public MyEndpointConverter(IItemModelRepository repository) : base(repository)
         {

@@ -31,11 +31,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Sitecore.DataExchange, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.1.4.170327\lib\NET452\Sitecore.DataExchange.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.1.4.170419\lib\NET452\Sitecore.DataExchange.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.DataExchange.DataAccess, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.DataExchange.DataAccess.1.4.170327\lib\NET452\Sitecore.DataExchange.DataAccess.dll</HintPath>
+      <HintPath>..\packages\Sitecore.DataExchange.DataAccess.1.4.170419\lib\NET452\Sitecore.DataExchange.DataAccess.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Services.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
