@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {B7F5FAD7-0A58-4D9D-98D2-78136F198728}
+database: master
+path: /sitecore/system/Settings/Rules/Insert Options/Rules/Data Exchange - Example Tool
+parent: {FF0BC016-2D01-4F55-A020-EF6FC2FE7559}
+name: Data Exchange - Example Tool
+master: {00000000-0000-0000-0000-000000000000}
+template: {664E5035-EB8C-4BA1-9731-A098FCC9127A}
+templatekey: Insert Options Rule
+created: 20170706T081430Z
+
+----field----
+field: {FA307B86-DA2A-44BD-887D-E2057CDB4948}
+name: Rule
+key: rule
+content-length: 485
+
+<ruleset>
+  <rule uid="{2EBA3B17-A372-41FB-B280-AACB5C0E79BE}" name="Pipelines">
+    <conditions>
+      <condition id="{5DE6D53E-EA62-4D17-8BDD-FEBCD80AC07B}" uid="6E9123F3AD074AA696FE9D098155BFDC" templateid="{2DC9C843-B841-483C-BB9B-AE0C9386404C}" />
+    </conditions>
+    <actions>
+      <action id="{C00680C2-6BEF-4AE8-9F34-5D142308E6F5}" uid="7B08B2587F0041E8B4585B4C0C11761F" insertoptionid="{511E680F-67D3-4888-8751-62754AF34DE3}" />
+    </actions>
+  </rule>
+</ruleset>
+----version----
+language: en
+version: 1
+revision: 8c4205ee-b2b5-4e89-9a01-45291b19ae76
+
+----field----
+field: {9E0287D9-AF90-41AD-8D36-332375E194D6}
+name: Name
+key: name
+content-length: 76
+
+Add insert options for the xConnect provider for the Data Exchange Framework
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170207T134944Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c4205ee-b2b5-4e89-9a01-45291b19ae76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170706T081819Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

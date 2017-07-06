@@ -1,0 +1,63 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore.DataExchange.Examples.WebHandlers</PackageName>
+      <Author>Maxim Klakov</Author>
+      <Version>0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>You'll need to add to web.config:
+ &lt;handlers&gt;
+	...
+ 
+&lt;add verb="*" path="pipelinebatchhandler.ashx" type="Sitecore.DataExchange.Examples.WebHandlers.RunPipelineBatchHandler, Sitecore.DataExchange.Examples.WebHandlers" name="Sitecore_DataExchange_Examples_WebHandlers_runPipelineBatch" /&gt;
+
+	...
+ &lt;/handlers&gt;
+
+
+Than handler can be runned via HTTP requests:
+http://&lt;sitename&gt;/-/pipelinebatchhandler/?id={&lt;Pipeline Batch GUID&gt;}</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Sitecore/Sitecore.DataExchange.Examples.WebHandlers.config</x-item>
+        <x-item>/bin/Sitecore.DataExchange.Examples.WebHandlers.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>DLL and Config</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
