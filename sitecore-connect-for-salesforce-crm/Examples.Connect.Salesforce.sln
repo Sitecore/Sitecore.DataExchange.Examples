@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.Connect.Salesforce", "Examples.Connect.Salesforce\Examples.Connect.Salesforce.csproj", "{AA4965EF-5CC9-4C9A-BF40-0D2040E746CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E78B5F5-47EA-4FE2-85F9-083FD9D65B28}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore installation packages", "Sitecore installation packages", "{F2FB0083-0022-40AF-BB22-AEAD9A0246A5}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore installation packages\Sitecore Connect for Salesforce CRM Examples-2.0.1.zip = Sitecore installation packages\Sitecore Connect for Salesforce CRM Examples-2.0.1.zip
+		Sitecore installation packages\Sitecore Connect for Salesforce CRM Examples.xml = Sitecore installation packages\Sitecore Connect for Salesforce CRM Examples.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4965EF-5CC9-4C9A-BF40-0D2040E746CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4965EF-5CC9-4C9A-BF40-0D2040E746CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4965EF-5CC9-4C9A-BF40-0D2040E746CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4965EF-5CC9-4C9A-BF40-0D2040E746CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31D4FD97-66B7-4029-A28A-BF72416B5635}
+	EndGlobalSection
+EndGlobal

@@ -4,21 +4,11 @@
 
 This project includes the code samples from the product documentation, along with additional code that might be useful to a developer interested in building providers for Data Exchange Framework.
 
-Samples include:
+  * Custom provider
+  * Remote SDK client
 
-## Custom provider
+In addition, this project includes code samples for products built on Data Exchange Framework:
 
-This provider allows you to read from text files. 
-
- * Visual Studio project with the source code
- * Sitecore installation package with the completed provider
- * Sitecore installation package containing a sample tenant that is configured to use the provider
- 
-## Remote SDK client
-
-Console application that uses the remote SDK to perform basic tasks.
-
- * Visual Studio project
- 
-
-
+  * Sitecore Connect for Microsoft Dynamics 365
+  * [Sitecore Connect for Salesforce CRM](sitecore-connect-for-salesforce-crm/)
+  * xDB Data Migration Tool
