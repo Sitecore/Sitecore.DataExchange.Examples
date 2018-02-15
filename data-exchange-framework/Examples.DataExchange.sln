@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.DataExchange", "Examples.DataExchange\Examples.DataExchange.csproj", "{B6A7DF6B-0A95-40DE-A070-F6FD24A4181D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.DataExchange.Tests", "Examples.DataExchange.Tests\Examples.DataExchange.Tests.csproj", "{A2726D3A-DECF-4DBB-800C-3C73C7DDE1DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{140C238B-139B-49E6-B98E-EFD89B3B17C6}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore installation packages", "Sitecore installation packages", "{36684D4D-F32C-4BF6-AE3D-FD85704FD9D1}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore installation packages\Data Exchange Framework Examples-2.0.1.zip = Sitecore installation packages\Data Exchange Framework Examples-2.0.1.zip
+		Sitecore installation packages\Data Exchange Framework Examples.xml = Sitecore installation packages\Data Exchange Framework Examples.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6A7DF6B-0A95-40DE-A070-F6FD24A4181D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A7DF6B-0A95-40DE-A070-F6FD24A4181D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A7DF6B-0A95-40DE-A070-F6FD24A4181D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A7DF6B-0A95-40DE-A070-F6FD24A4181D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2726D3A-DECF-4DBB-800C-3C73C7DDE1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2726D3A-DECF-4DBB-800C-3C73C7DDE1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2726D3A-DECF-4DBB-800C-3C73C7DDE1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2726D3A-DECF-4DBB-800C-3C73C7DDE1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A3A0B5C-42E2-411C-91DA-410F08EB182E}
+	EndGlobalSection
+EndGlobal
