@@ -1,0 +1,125 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Connect for Microsoft Dynamics 365 for Sales Examples</PackageName>
+      <Author>Adam Conn</Author>
+      <Version>2.0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Examples for Sitecore Connect for Microsoft Dynamics 365 for Sales 2.0.1
+-------------------------------------------------------------
+Date: 26-Feb-2018
+-------------------------------------------------------------
+Before you install this package you must ensure the following 
+packages are installed. If these packages are not installed, 
+the installation will fail.
+- Sitecore Connect for Microsoft Dynamics 365 for Sales 2.0.1 (or higher)
+-------------------------------------------------------------
+Sitecore® is a registered trademark. All other brand and
+product names are the property of their respective holders.
+The contents of this document are the property of Sitecore.
+Copyright © 2001-2018 Sitecore. All rights reserved.</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <items>
+      <Database>master</Database>
+      <Root>{659BB3F8-5D8A-4150-A7D8-3D5018EBCBC9}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern />
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+        <ItemDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <NotOlderThan />
+          <ActionDateTo />
+          <ActionDateFrom />
+        </ItemDateFilter>
+        <ItemPublishFilter>
+          <PublishDate />
+          <CheckWorkflow>True</CheckWorkflow>
+        </ItemPublishFilter>
+        <ItemTemplateFilter>
+          <Templates />
+        </ItemTemplateFilter>
+        <ItemUserFilter>
+          <FilterType>Created</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemUserFilter>
+          <FilterType>Modified</FilterType>
+          <Accounts />
+        </ItemUserFilter>
+        <ItemLanguageFilter>
+          <Languages />
+        </ItemLanguageFilter>
+      </Include>
+      <Exclude />
+      <Name>sample tenant item</Name>
+    </items>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Examples.Connect.Dynamics.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>dlls</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Data Exchange/Providers/xConnect/Collection Models/Custom Models/Custom Collection Model for Dynamics/{793D1AF8-034F-4AC9-A9D6-6199E8EA090A}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>custom model item</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
