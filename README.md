@@ -4,11 +4,11 @@
 
 This project includes the code samples from the product documentation, along with additional code that might be useful to a developer interested in building providers for Data Exchange Framework.
 
-  * Custom provider
+  * [Custom provider](data-exchange-framework-file-system-provider/)
   * Remote SDK client
 
 In addition, this project includes code samples for products built on Data Exchange Framework:
 
-  * Sitecore Connect for Microsoft Dynamics 365
+  * [Sitecore Connect for Microsoft Dynamics 365](sitecore-connect-for-microsoft-dynamics-365-for-sales/)
   * [Sitecore Connect for Salesforce CRM](sitecore-connect-for-salesforce-crm/)
   * xDB Data Migration Tool
