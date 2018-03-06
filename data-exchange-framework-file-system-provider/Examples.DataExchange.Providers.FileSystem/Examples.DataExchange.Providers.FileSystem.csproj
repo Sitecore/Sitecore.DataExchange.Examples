@@ -60,6 +60,7 @@
     <Compile Include="ReadTextFileStepConverter.cs" />
     <Compile Include="ReadTextFileStepProcessor.cs" />
     <Compile Include="TextFileEndpointConverter.cs" />
+    <Compile Include="TextFileEndpointTroubleshooter.cs" />
     <Compile Include="TextFileSettings.cs" />
   </ItemGroup>
   <ItemGroup>
