@@ -1,0 +1,119 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sample Tenant for File System Provider for Data Exchange Framework</PackageName>
+      <Author>Adam Conn</Author>
+      <Version>2.0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Sample Tenant for File System Provider for Data Exchange Framework 2.0.1
+-------------------------------------------------------------
+Date: 05-Mar-2018
+-------------------------------------------------------------
+Before you install this package you must ensure the following 
+packages are installed. If these packages are not installed, 
+the installation will fail.
+- Data Exchange Framework 2.0.1 (or higher)
+- File System Provider for Data Exchange Framework 2.0.1 (or higher)
+- Sitecore Provider for Data Exchange Framework 2.0.1 (or higher)
+-------------------------------------------------------------
+Sitecore® is a registered trademark. All other brand and
+product names are the property of their respective holders.
+The contents of this document are the property of Sitecore.
+Copyright © 2001-2018 Sitecore. All rights reserved.</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Cities/{1FD9695F-5D88-4DE8-AB3D-F073F53EF82B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/{E759AAA9-453F-450F-9CE3-BA5D778E1A24}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/{D96911E1-D743-4231-8A8A-0536D7C8F830}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Apply Mapping Rules/{487CFCB1-2567-456A-8427-5EC4142DF913}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Apply Mapping Rules/Common/{D4EEBAA2-5E86-413B-AE5E-8D40CFF8D784}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Apply Mapping Rules/Providers/{4C0D769C-02BC-41E2-A3C7-2DE1248ABE25}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Action Rules/{99E79D84-A677-4191-99D2-4E1B03028AF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Action Rules/Common/{7631A2AA-4AD8-485B-B658-2D5BED9962ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Action Rules/Providers/{7F642BCE-4D76-418D-B9DE-AECDB043E2C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Actions/{FB6D0F57-A8DA-4605-9745-867CD733B45E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Actions/Common/{2AE4F2CA-5415-4589-818F-42B2BBB022D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Mappings Applied Actions/Providers/{099F98F3-4078-4B92-912C-CBF2C261A951}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/{F880E2F9-5E5E-4ED2-AE93-9DFDCB007C45}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Common/{AD9BA531-B723-4339-BAF9-CC3D41198BD7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/{7F669B10-4215-4928-819F-4697218D0912}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/File System/{1B908C53-78D6-40B6-BBF5-8B6D884A2580}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/File System/City Information File Fields/{178C0FF7-A960-4129-AE7B-72EBE195DE7D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/File System/City Information File Fields/City from City Information File/{EEC4C269-CA85-46AC-A4C3-DEFDDB79D260}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/File System/City Information File Fields/Country from City Information File/{DF7D5A83-DC4E-4BA3-9882-EC01DFCA844E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/File System/City Information File Fields/Identifier from City Information File/{DE0A284D-0916-47CE-A65C-2F566DC423AA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/{40E2F17E-1D3A-468D-934E-9C9CE6A34B76}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/City Information Item Fields/{2C3723D2-FFD3-4C64-B9B8-0F899B47151D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/City Information Item Fields/City on City Information Item/{5377A788-61A7-49F7-88FA-2678DCDD2327}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/City Information Item Fields/Country on City Information Item/{BEBFCF54-2D47-42FF-95EF-2921B4257B73}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessor Sets/Providers/Sitecore/City Information Item Fields/Identifier on City Information Item/{7FAF2481-B9A1-462F-B8C8-27C614FA065A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessors/{242315A7-1AA5-43D2-B268-9320D97E5676}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessors/Common/{95FCF33B-35EC-4219-A71D-2B2BA6C29059}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Accessors/Providers/{45C427CF-B3E5-4F1E-B421-1D837F99B625}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Readers/{F773BC8A-9D93-405F-9638-F155DDD3307C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Readers/Common/{67A2D855-E06E-457A-90D1-7C68888855E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Readers/Providers/{DB4640FE-41BE-4793-B1DA-F8D7AA159CB9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Writers/{010D5D85-AD43-4DCC-9166-24792756DCA2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Writers/Common/{DA39A3F5-4241-4C04-9875-E41AC843E912}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Data Access/Value Writers/Providers/{0D18F5CB-9290-4ACE-B74D-DFFAF8B3FB0D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/{01FA0CE5-6892-406C-A47D-DB45FA14A0FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Common/{D65EB257-B081-4D18-88F8-5C9300F5F2A9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Providers/{A706D1CD-1B1E-4361-84C1-C7555CE60716}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Providers/File System/{0FCAEFC4-74FE-416F-BFA5-EAED5D86B2C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Providers/File System/City Information File/{7B64EF79-E677-45D4-BB81-6348C62E76C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Providers/Sitecore/{729D89D1-B9BA-484D-8E69-FC7AEEFEE642}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Endpoints/Providers/Sitecore/Sitecore Database Endpoint/{81B621BE-9EEE-4D67-9D30-7168F0A65462}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipeline Batches/{7788F430-0F39-470E-AF76-C4485D931B43}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipeline Batches/City Info from File to City Info Item Sync Pipeline Batch/{E19512DD-8FFF-4CDF-BEFA-500845B2792A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/{B886DBB5-C3C3-4F02-BD05-CE40E23D31C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/City Info from File to City Info Item Sync Pipeline/{F882F5CB-1617-4A5D-9DFD-3D2F1CCA9D86}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/City Info from File to City Info Item Sync Pipeline/Apply Mapping/{235EB19F-A00C-4725-B1C9-EF0156FFEA9E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/City Info from File to City Info Item Sync Pipeline/Resolve City Info Item/{2B5188D9-6359-4C76-8069-E124555EC66D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/City Info from File to City Info Item Sync Pipeline/Update Sitecore Item/{92FDD06C-65B2-4F1A-9976-9C04B4D77B1E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/Read City Info from File Pipeline/{166B7A05-5215-4A64-87E0-238155A9B054}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/Read City Info from File Pipeline/Iterate Rows from Text File and Run Pipeline/{144BAF35-8FA1-4CAA-A3E8-60FCC04C091E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Pipelines/Read City Info from File Pipeline/Read Text File/{14C004F2-1F23-4FF2-8955-2991EE332846}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Tenant Settings/{BC0B696B-B670-4E4B-8A6E-90945AF4F558}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Tenant Settings/Common/{04B5808F-942C-4916-81AC-11201BA49692}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Tenant Settings/Providers/{B4723CD2-BDE9-4A2D-AF06-3638341D0B05}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Value Mapping Sets/{5FFF8B92-1650-4F3E-82D0-08937B96F26C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Value Mapping Sets/Row from City Information File to City Information Item/{DCCF9FAC-6B03-4FBC-9F9E-216801932EC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Value Mapping Sets/Row from City Information File to City Information Item/City/{FFCB9EF7-224D-49F7-9D8F-54063726F990}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Value Mapping Sets/Row from City Information File to City Information Item/Country/{537350AB-2988-4721-8D1E-D884115E1AA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Data Exchange/File System Provider Test Tenant/Value Mapping Sets/Row from City Information File to City Information Item/Identifier/{A18AEB53-6EB4-48E1-BF7B-90E11446BE79}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/City Information/{068A9356-F5D3-47B2-B619-ABCEE7ABA933}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/City Information/Data/{F6AA051D-2638-4260-B8D8-9DD7034B879C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/City Information/Data/City/{02E9FE1D-5E65-42E1-B5E7-2564A3123ADA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/City Information/Data/Country/{33E4C5F7-9699-4790-929C-54D6120F0EE3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/City Information/Data/Identifier/{E2D0D99A-2165-4631-979D-1CF7B0628FE1}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

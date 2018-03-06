@@ -1,0 +1,142 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>File System Provider for Data Exchange Framework</PackageName>
+      <Author>Adam Conn</Author>
+      <Version>2.0.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>File System Provider for Data Exchange Framework 2.0.1
+-------------------------------------------------------------
+Date: 05-Mar-2018
+-------------------------------------------------------------
+Before you install this package you must ensure the following 
+packages are installed. If these packages are not installed, 
+the installation will fail.
+- Data Exchange Framework 2.0.1 (or higher)
+-------------------------------------------------------------
+Sitecore® is a registered trademark. All other brand and
+product names are the property of their respective holders.
+The contents of this document are the property of Sitecore.
+Copyright © 2001-2018 Sitecore. All rights reserved.</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Examples.DataExchange.Providers.FileSystem.dll</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>dlls</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Insert Options/Rules/Data Exchange - File System Provider/{3683E14D-B628-4158-B6D8-736329CFBD50}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>insert option rules</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/{AE3E07AB-DACE-4ACE-9A54-22506919C96B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/{4C4734B8-43EE-4603-8AB3-2B74DA9EAF9B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Apply Mapping Rules/{17BEABC9-EA71-482D-ABDF-A86853EF8A73}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Mapping/{6C3A40E3-AA36-4680-AECF-28640BB41F9F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Mappings Applied Action Rules/{B74C3D4C-6A55-4C11-8C64-CF6B9B9E49D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Mappings Applied Actions/{795E4A02-2E04-444E-B102-48239A257474}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessor Sets/{837908D5-6421-41B6-875D-2ACD6D5E4C88}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessor Sets/Array Value Accessor Set/__Standard Values/{646767AE-3B6B-43EF-9F20-8D9FEED7D7D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessor Sets/Array Value Accessor Set/{C1933C88-FCBD-4100-B34C-50EFC1B0F7E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessors/{E027522C-896D-486F-95C7-53DBDFBDA0E5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessors/Array Value Accessor/__Standard Values/{232F9E62-463B-459A-815E-5D64807FE213}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessors/Array Value Accessor/{1BFD5F32-917D-414E-9A94-177C7EC0ACC9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessors/Array Value Accessor/Settings/{39E0272D-5279-4124-9DEB-593ADA219D63}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Accessors/Array Value Accessor/Settings/Position/{93B4F925-94FA-4594-BA31-EE04301150A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Readers/{0B1E98FF-991B-4184-A281-4C3EFED134BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Data Access/Value Writers/{5A526B44-C7F9-4679-B14F-3C4BFAA7C7F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/{01169F52-85EF-4E11-9547-4D07A2A57E17}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/__Standard Values/{8E94BB74-AECF-401C-A3D5-D737FC331576}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/{BED376BC-FC04-458F-B673-7BAE098C3E32}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/Settings/{B0491A6D-562B-4942-A4B6-5510499E30F0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/Settings/ColumnHeadersInFirstLine/{1991CF28-AD8E-4261-A886-BF0FAEA7BB96}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/Settings/ColumnSeparator/{6FA60C87-AF44-41CC-83E0-42E4451E37EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Endpoints/Text File Endpoint/Settings/Path/{D764FF5A-D5DC-4933-AA34-C06CF14EF6F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Filter Expressions/{1E93FD98-A87B-49C8-98A8-5B4C72601814}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Filter Expressions/Conditions/{D602EECF-9899-4431-A268-9C33E884236E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/{0AAD9E56-9B7E-440F-95F6-34CA2CBBB234}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Apply Mapping Rules Root/__Standard Values/{B66CFE38-A4A2-49CA-B4A7-9BB605D7EF2F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Apply Mapping Rules Root/{32151E0D-181F-46B1-9593-107E89E804A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Endpoints Root/__Standard Values/{E9F50DF8-96D0-4334-ADFD-53C9D607E490}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Endpoints Root/{CDDD71E4-7EC8-4AD5-834F-5A4F79F5D077}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Filter Expressions Root/__Standard Values/{42BC556B-BCE2-4C25-BA9A-9808BF22BB33}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Filter Expressions Root/{8DA3A3FA-C388-4230-8E0A-D7A249D57899}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Mappings Applied Action Rules Root/__Standard Values/{1B193F37-ACB6-43E9-8531-131D95F96794}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Mappings Applied Action Rules Root/{FE20173F-D523-43DE-92B8-C38AD6DC22E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Mappings Applied Actions Root/__Standard Values/{B079B714-47FD-4363-922E-0F603BB1909F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Mappings Applied Actions Root/{55C3308B-E74B-4514-BBE5-34D6C9F77473}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Tenant Settings Root/__Standard Values/{709DFD34-75B2-473F-90C5-222F3096BD4A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Tenant Settings Root/{904981F5-7DD3-4A3C-9FE5-70CF6E7D1A3B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Accessor Sets Root/__Standard Values/{7F24D8DB-86F7-4BF5-9084-016CE0B58168}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Accessor Sets Root/{8D4F7EF1-B4A8-4E41-BCE6-E980F74571E0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Accessors Root/__Standard Values/{C738D660-D540-4265-949A-5A6AC07823E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Accessors Root/{BD26ECED-6294-4FCD-8109-1B474D8ED45A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Readers Root/__Standard Values/{2892B34E-2927-451A-9CDF-2B090122B5B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Readers Root/{8C9091AC-121E-4677-B224-4EE4168C9868}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Writers Root/__Standard Values/{4D7C4123-3804-421D-92D4-2213B95071E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Folders/File System Value Writers Root/{7634FE81-29D8-40DB-A725-A3A3E40A8DE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Step Override Actions/{18355B69-FFB7-4327-A1A2-289EDD710384}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Steps/{70AE371F-5E64-42E8-8348-B8CF4D1A36BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Steps/Read Text File Pipeline Step/__Standard Values/{E7C8BA99-FD0D-49E7-A50A-6C9227D79BC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Steps/Read Text File Pipeline Step/{3CB5EF31-4804-4844-9A5B-E3214BDF1B2B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Steps/Read Text File Pipeline Step/Endpoints/{595FFBC8-10B0-4068-A07C-5CFD26519CBC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Data Exchange/Providers/File System/Pipeline Steps/Read Text File Pipeline Step/Endpoints/EndpointFrom/{7BCECD79-F208-4857-89B6-5E8A02390936}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>templates</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

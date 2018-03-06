@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.DataExchange.Provi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples.DataExchange.Providers.FileSystem.Tests", "Examples.DataExchange.Providers.FileSystem.Tests\Examples.DataExchange.Providers.FileSystem.Tests.csproj", "{2EBB7684-4A8E-4612-9CA7-E2C3A61F3F10}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sitecore installation packages", "Sitecore installation packages", "{751DD959-7374-4591-8BF2-D80413DB9149}"
+	ProjectSection(SolutionItems) = preProject
+		Sitecore installation packages\Data Exchange Framework File System Provider Sample Tenant.xml = Sitecore installation packages\Data Exchange Framework File System Provider Sample Tenant.xml
+		Sitecore installation packages\Data Exchange Framework File System Provider.xml = Sitecore installation packages\Data Exchange Framework File System Provider.xml
+		Sitecore installation packages\File System Provider for Data Exchange Framework-2.0.1.zip = Sitecore installation packages\File System Provider for Data Exchange Framework-2.0.1.zip
+		Sitecore installation packages\Sample Tenant for File System Provider for Data Exchange Framework-2.0.1.zip = Sitecore installation packages\Sample Tenant for File System Provider for Data Exchange Framework-2.0.1.zip
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
