@@ -130,6 +130,44 @@ Copyright © 2001-2018 Sitecore. All rights reserved.</Readme>
       <Exclude />
       <Name>templates</Name>
     </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/{005E6905-2C30-4A03-92AE-BF6948C7DB7E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Branches/{5495BBDE-BA4A-4A0D-B1C5-565559015D26}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Branches/File System Tenant Settings Root/{7A041EC3-B702-4E7E-B407-E61D21D3F1D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Branches/File System Tenant Settings Root/File System/{92526CF7-D4DD-494C-B973-3DBCF8528293}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Branches/File System Tenant Settings Root/File System/Filter Expression/{41E0D99A-884C-471E-8977-9692E881B695}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/{635D02F1-132A-4EEF-BE72-BF102724F2EF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Apply Mapping Rules/{2B173025-F216-4C2A-ADE9-560B8C12A2B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Apply Mapping Rules/New Item Settings/{A68F1ECF-38AD-45CB-AF2B-E95F3976BB09}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Endpoints/{E2C34443-4C5F-46FA-9826-BBF4820BBF79}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Endpoints/New Item Settings/{28C672F5-E285-4800-8289-D6A4929B0F6E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Mappings Applied Action Rules/{D6471C06-4F10-4C26-BCFF-7AFCA73538C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Mappings Applied Action Rules/New Item Settings/{1171A3D3-0495-45EC-A111-6F8D20801DE8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Mappings Applied Actions/{52FCF521-C3E7-4DB8-9661-1F57CDC204A7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Mappings Applied Actions/New Item Settings/{486B0440-2A8C-4211-8D06-9E6C190A8DC2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Tenant Settings/{AACE94FA-AF2C-4FF7-AA18-4DC60F5A6BE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Tenant Settings/New Item Settings/{7E69E341-BC97-4162-94C5-CBACB632B40B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Accessor Sets/{AFC6CF01-981A-4414-A520-B7F38C574915}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Accessor Sets/New Item Settings/{512B952C-6AE2-43FD-92E6-4EA205E4EACD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Accessors/{B04E19F7-10EF-4075-B183-ACE5272EB1D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Accessors/New Item Settings/{EF3B11FF-09F2-4E18-8BBE-75BBFA2E2F6E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Readers/{3177E645-F2EA-4887-BF3B-3E46C43A188B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Readers/New Item Settings/{1579D8C6-8F8B-42C8-94BD-4B91731D05E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Writers/{8185D2A7-E898-44D0-A1F4-9379416D8643}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Commands/File System Value Writers/New Item Settings/{2E56108F-C20D-4D91-BFC4-5B9C82916107}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Data Exchange/Providers/File System/Tenants/{E85E8A15-368B-4163-9149-3C01AEC64DDF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>branch templates</Name>
+    </xitems>
   </Sources>
   <Converter>
     <TrivialConverter>
